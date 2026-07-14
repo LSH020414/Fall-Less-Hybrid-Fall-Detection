@@ -1,0 +1,11 @@
+{
+  "model": "FallTCN",
+  "sequence_length": 100,
+  "input_dimension": 51,
+  "channels": [64, 128, 128],
+  "runtime_threshold": 0.70,
+  "confirmation_count": 2,
+  "checkpoint_best_f1": 0.9712230215827338,
+  "checkpoint_best_recall": 0.9440559440559441,
+  "note": "Values are metadata printed from the deployed Raspberry Pi checkpoint."
+}

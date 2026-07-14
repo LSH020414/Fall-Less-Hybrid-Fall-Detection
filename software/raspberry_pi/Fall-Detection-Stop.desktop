@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Fall Detection Stop
+Comment=Stop camera and fall detection
+Exec=/bin/bash -lc "$HOME/fall_detection/control/fall_detection_stop.sh"
+Icon=media-playback-stop
+Terminal=false
+Categories=Utility;

@@ -1,0 +1,22 @@
+{
+  "purpose": "Balance live fall sensitivity and single-window false-positive rejection.",
+  "dataset_reference": {
+    "total": 118,
+    "correct": 104,
+    "accuracy": 0.8813559322,
+    "tp": 64,
+    "tn": 40,
+    "fp": 0,
+    "fn": 14
+  },
+  "decision": {
+    "high_probability": 0.70,
+    "high_probability_q15": 22938,
+    "minimum_high_windows": 2,
+    "average_probability": 0.50,
+    "probability_sum_q15": 278528,
+    "motion": 0.07,
+    "motion_q14": 1147
+  },
+  "tradeoff": "More sensitive than the conservative profile while still rejecting a single high-probability window."
+}

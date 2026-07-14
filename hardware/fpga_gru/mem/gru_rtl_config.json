@@ -1,0 +1,16 @@
+{
+  "input_size": 51,
+  "hidden_size": 64,
+  "sequence_length": 20,
+  "input_bits": 18,
+  "input_fraction_bits": 6,
+  "weight_bits": 16,
+  "weight_fraction_bits": 14,
+  "hidden_bits": 16,
+  "hidden_fraction_bits": 14,
+  "preactivation_fraction_bits": 12,
+  "sigmoid_fraction_bits": 15,
+  "lut_step_shift": 6,
+  "lut_size": 1025,
+  "weight_count": 22594
+}

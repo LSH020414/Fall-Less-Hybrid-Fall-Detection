@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Fall Detection Start
+Comment=Start camera and fall detection
+Exec=/bin/bash -lc "$HOME/fall_detection/control/fall_detection_start.sh"
+Icon=media-playback-start
+Terminal=false
+Categories=Utility;

@@ -1,0 +1,22 @@
+{
+  "purpose": "Reduce live false positives caused by unstable pose coordinates.",
+  "dataset_reference": {
+    "total": 118,
+    "correct": 102,
+    "accuracy": 0.8644067797,
+    "tp": 62,
+    "tn": 40,
+    "fp": 0,
+    "fn": 16
+  },
+  "decision": {
+    "high_probability": 0.8,
+    "high_probability_q15": 26215,
+    "minimum_high_windows": 3,
+    "average_probability": 0.6,
+    "probability_sum_q15": 334234,
+    "motion": 0.08,
+    "motion_q14": 1311
+  },
+  "tradeoff": "The detector is less likely to trigger before a real fall, but it may miss weaker or shorter falls."
+}

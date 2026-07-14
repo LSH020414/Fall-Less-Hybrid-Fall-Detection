@@ -1,0 +1,57 @@
+[
+  {
+    "video_name": "adl-35-cam0_RGB_only.mp4",
+    "start_frame": 50,
+    "label": 0,
+    "float_probability": 0.00012249489758725575,
+    "probability_q": 11,
+    "logit0_q": 18102,
+    "logit1_q": -18761,
+    "hidden_checksum": 59668,
+    "case_name": "minimum"
+  },
+  {
+    "video_name": "fall-03-cam0_RGB_only.mp4",
+    "start_frame": 40,
+    "label": 1,
+    "float_probability": 0.9999845884268685,
+    "probability_q": 32757,
+    "logit0_q": -21786,
+    "logit1_q": 23607,
+    "hidden_checksum": -178119,
+    "case_name": "maximum"
+  },
+  {
+    "video_name": "adl-37-cam0_RGB_only.mp4",
+    "start_frame": 75,
+    "label": 0,
+    "float_probability": 0.4977908460284564,
+    "probability_q": 16256,
+    "logit0_q": -409,
+    "logit1_q": -494,
+    "hidden_checksum": 1681,
+    "case_name": "near_050"
+  },
+  {
+    "video_name": "fall-05-cam0_RGB_only.mp4",
+    "start_frame": 15,
+    "label": 1,
+    "float_probability": 0.8931028659140192,
+    "probability_q": 29173,
+    "logit0_q": -4754,
+    "logit1_q": 3841,
+    "hidden_checksum": -26075,
+    "case_name": "near_090_below"
+  },
+  {
+    "video_name": "31.avi",
+    "start_frame": 15,
+    "label": 1,
+    "float_probability": 0.9211623750040971,
+    "probability_q": 30246,
+    "logit0_q": -4109,
+    "logit1_q": 6036,
+    "hidden_checksum": -91158,
+    "case_name": "near_090_above"
+  }
+]

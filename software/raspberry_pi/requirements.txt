@@ -1,0 +1,11 @@
+numpy
+opencv-python
+requests
+torch
+ultralytics
+pyserial
+paramiko
+
+# Picamera2 is normally installed from Raspberry Pi OS packages:
+# sudo apt install python3-picamera2
+

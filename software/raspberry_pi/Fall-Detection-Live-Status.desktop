@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Fall Detection Live Status
+Comment=Monitor FPGA GRU, Pi5 TCN, and CALL POLICE decision states
+Exec=/usr/bin/lxterminal -e /home/raspberrylee/fall_detection/fall_detection_live_status.sh
+Icon=utilities-terminal
+Terminal=false
+Categories=Utility;

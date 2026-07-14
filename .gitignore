@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+yolovenv/
+.env
+
+# Runtime files
+*.flag
+*.jpg
+*.png
+*.log
+*.jou
+*.pb
+*.wdb
+
+# Model files supplied separately on Raspberry Pi
+software/raspberry_pi/models/*.pt
+software/raspberry_pi/models/*.pth
+
+# Vivado generated files
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+xsim.dir/
+sim_build_*/
+*.xpr
+*.runs/
+*.srcs/
+*.gen/
+*.dcp
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+

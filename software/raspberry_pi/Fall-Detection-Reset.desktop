@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Fall Detection Reset
+Comment=Reset Python and TCN alert state
+Exec=/bin/bash -lc "$HOME/fall_detection/control/fall_detection_reset.sh"
+Icon=view-refresh
+Terminal=false
+Categories=Utility;

@@ -1,0 +1,606 @@
+{
+  "total": 118,
+  "correct": 89,
+  "accuracy": 0.7542372881355932,
+  "tp": 49,
+  "tn": 40,
+  "fp": 0,
+  "fn": 29,
+  "fall_recall": 0.6282051282051282,
+  "specificity": 1.0,
+  "parameters": {
+    "sequence_length": 20,
+    "chunk_length": 100,
+    "stride": 5,
+    "fall_threshold": 0.9,
+    "minimum_fall_windows": 5,
+    "average_threshold": 0.75,
+    "motion_threshold": 0.06
+  },
+  "missed_falls": [
+    {
+      "video_name": "13.avi",
+      "best_chunk": {
+        "frames": 64,
+        "windows": 9,
+        "average_probability": 0.9124043782552084,
+        "maximum_probability": 0.99774169921875,
+        "high_probability_windows": 2,
+        "motion_score": 8.966236693930025,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-01-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 54,
+        "windows": 7,
+        "average_probability": 0.6611415318080357,
+        "maximum_probability": 0.986785888671875,
+        "high_probability_windows": 3,
+        "motion_score": 0.4865537441408581,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-02-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 37,
+        "windows": 4,
+        "average_probability": 0.9909133911132812,
+        "maximum_probability": 0.9996337890625,
+        "high_probability_windows": 4,
+        "motion_score": 4.008438459966848,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-03-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 72,
+        "windows": 11,
+        "average_probability": 0.7222373268821023,
+        "maximum_probability": 0.999664306640625,
+        "high_probability_windows": 7,
+        "motion_score": 1.9832141430353445,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-04-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 32,
+        "windows": 3,
+        "average_probability": 0.9983317057291666,
+        "maximum_probability": 0.9996337890625,
+        "high_probability_windows": 3,
+        "motion_score": 4.319722647231795,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-05-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 51,
+        "windows": 7,
+        "average_probability": 0.7024710518973214,
+        "maximum_probability": 0.99908447265625,
+        "high_probability_windows": 3,
+        "motion_score": 0.8934431231092391,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-06-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 34,
+        "windows": 3,
+        "average_probability": 0.9983317057291666,
+        "maximum_probability": 0.999664306640625,
+        "high_probability_windows": 3,
+        "motion_score": 2.7716785678458864,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-08-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 31,
+        "windows": 3,
+        "average_probability": 0.9818216959635416,
+        "maximum_probability": 0.997100830078125,
+        "high_probability_windows": 3,
+        "motion_score": 0.8181368301322198,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-09-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 62,
+        "windows": 9,
+        "average_probability": 0.7126091851128472,
+        "maximum_probability": 0.999542236328125,
+        "high_probability_windows": 5,
+        "motion_score": 1.3758435061275176,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-11-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 44,
+        "windows": 5,
+        "average_probability": 0.871160888671875,
+        "maximum_probability": 0.999664306640625,
+        "high_probability_windows": 4,
+        "motion_score": 3.544797231706478,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-12-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 37,
+        "windows": 4,
+        "average_probability": 0.99700927734375,
+        "maximum_probability": 0.999176025390625,
+        "high_probability_windows": 4,
+        "motion_score": 2.0304992230777477,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-13-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 29,
+        "windows": 2,
+        "average_probability": 0.700439453125,
+        "maximum_probability": 0.877471923828125,
+        "high_probability_windows": 0,
+        "motion_score": 16.158830713146678,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-14-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 21,
+        "windows": 1,
+        "average_probability": 0.999664306640625,
+        "maximum_probability": 0.999664306640625,
+        "high_probability_windows": 1,
+        "motion_score": 4.730327693598402,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-15-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 24,
+        "windows": 1,
+        "average_probability": 0.857757568359375,
+        "maximum_probability": 0.857757568359375,
+        "high_probability_windows": 0,
+        "motion_score": 0.197109663694862,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-16-cam0_RGB_only.mp4",
+      "best_chunk": {}
+    },
+    {
+      "video_name": "fall-17-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 32,
+        "windows": 3,
+        "average_probability": 0.5216776529947916,
+        "maximum_probability": 0.988677978515625,
+        "high_probability_windows": 1,
+        "motion_score": 2.0417870253823818,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-18-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 22,
+        "windows": 1,
+        "average_probability": 0.99884033203125,
+        "maximum_probability": 0.99884033203125,
+        "high_probability_windows": 1,
+        "motion_score": 3.6540955897705225,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-19-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 34,
+        "windows": 3,
+        "average_probability": 0.999664306640625,
+        "maximum_probability": 0.999664306640625,
+        "high_probability_windows": 3,
+        "motion_score": 0.23133287946379938,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-20-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 37,
+        "windows": 4,
+        "average_probability": 0.9880523681640625,
+        "maximum_probability": 0.997161865234375,
+        "high_probability_windows": 4,
+        "motion_score": 4.541324051279349,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-21-cam0_RGB_only.mp4",
+      "best_chunk": {}
+    },
+    {
+      "video_name": "fall-22-cam0_RGB_only.mp4",
+      "best_chunk": {}
+    },
+    {
+      "video_name": "fall-23-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 25,
+        "windows": 2,
+        "average_probability": 0.998992919921875,
+        "maximum_probability": 0.999542236328125,
+        "high_probability_windows": 2,
+        "motion_score": 1.7589100175706769,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-24-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 20,
+        "windows": 1,
+        "average_probability": 0.996246337890625,
+        "maximum_probability": 0.996246337890625,
+        "high_probability_windows": 1,
+        "motion_score": 6.474460721060231,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-25-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 29,
+        "windows": 2,
+        "average_probability": 0.5266571044921875,
+        "maximum_probability": 0.83331298828125,
+        "high_probability_windows": 0,
+        "motion_score": 0.30945201440995135,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-26-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 21,
+        "windows": 1,
+        "average_probability": 0.9974365234375,
+        "maximum_probability": 0.9974365234375,
+        "high_probability_windows": 1,
+        "motion_score": 2.2679238410963167,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-27-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 31,
+        "windows": 3,
+        "average_probability": 0.4625651041666667,
+        "maximum_probability": 0.692626953125,
+        "high_probability_windows": 0,
+        "motion_score": 0.1203204023798365,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-28-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 22,
+        "windows": 1,
+        "average_probability": 0.9736328125,
+        "maximum_probability": 0.9736328125,
+        "high_probability_windows": 1,
+        "motion_score": 0.7310711640250459,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-29-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 33,
+        "windows": 3,
+        "average_probability": 0.73419189453125,
+        "maximum_probability": 0.996734619140625,
+        "high_probability_windows": 2,
+        "motion_score": 2.5267279549457187,
+        "prediction": false,
+        "start_frame": 0
+      }
+    },
+    {
+      "video_name": "fall-30-cam0_RGB_only.mp4",
+      "best_chunk": {
+        "frames": 24,
+        "windows": 1,
+        "average_probability": 0.981170654296875,
+        "maximum_probability": 0.981170654296875,
+        "high_probability_windows": 1,
+        "motion_score": 5.625231871353575,
+        "prediction": false,
+        "start_frame": 0
+      }
+    }
+  ],
+  "false_alarms": [],
+  "best_parameter_candidates": [
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.5,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.0
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.5,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.02
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.5,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.04
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.5,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.06
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.5,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.45,
+      "motion_threshold": 0.0
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.5,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.45,
+      "motion_threshold": 0.02
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.5,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.45,
+      "motion_threshold": 0.04
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.5,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.45,
+      "motion_threshold": 0.06
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.55,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.0
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.55,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.02
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.55,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.04
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.55,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.06
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.55,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.45,
+      "motion_threshold": 0.0
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.55,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.45,
+      "motion_threshold": 0.02
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.55,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.45,
+      "motion_threshold": 0.04
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.55,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.45,
+      "motion_threshold": 0.06
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.6,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.0
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.6,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.02
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.6,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.04
+    },
+    {
+      "correct": 115,
+      "tp": 75,
+      "tn": 40,
+      "fp": 0,
+      "fn": 3,
+      "high_threshold": 0.6,
+      "minimum_high_windows": 1,
+      "average_threshold": 0.4,
+      "motion_threshold": 0.06
+    }
+  ],
+  "conservative_best": {
+    "correct": 115,
+    "tp": 75,
+    "tn": 40,
+    "fp": 0,
+    "fn": 3,
+    "high_threshold": 0.65,
+    "minimum_high_windows": 1,
+    "average_threshold": 0.45,
+    "motion_threshold": 0.06
+  }
+}

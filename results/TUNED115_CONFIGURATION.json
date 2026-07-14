@@ -1,0 +1,35 @@
+{
+  "python_target": {
+    "total": 118,
+    "correct": 115,
+    "accuracy": 0.9745762712,
+    "tp": 75,
+    "tn": 40,
+    "fp": 0,
+    "fn": 3,
+    "fall_recall": 0.9615384615,
+    "specificity": 1.0
+  },
+  "stream": {
+    "sequence_frames": 20,
+    "chunk_frames": 100,
+    "window_stride_frames": 5,
+    "windows_per_chunk": 17
+  },
+  "decision": {
+    "high_probability": 0.65,
+    "high_probability_q15": 21300,
+    "minimum_high_windows": 1,
+    "average_probability": 0.45,
+    "probability_sum_q15": 250676,
+    "motion": 0.06,
+    "motion_q14": 984
+  },
+  "implementation": {
+    "part": "xc7a35tcpg236-1",
+    "clock_mhz": 100,
+    "wns_ns": 0.106,
+    "bitstream": "reports/final_bitstream/GRU_Fall_Detect_TUNED115_FINAL.bit",
+    "sha256": "94B90CB21FBEC468C9860CDDD7095740A84DB192AA3EEE726B23B90CA6FEBE59"
+  }
+}

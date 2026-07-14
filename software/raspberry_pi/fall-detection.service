@@ -1,0 +1,15 @@
+[Unit]
+Description=Fall Detection with Raspberry Pi TCN and FPGA GRU
+After=graphical-session.target wayvnc.service
+
+[Service]
+Type=simple
+WorkingDirectory=%h/fall_detection
+ExecStart=%h/fall_detection/start_fall_detection_gui.sh
+Restart=always
+RestartSec=10
+KillSignal=SIGINT
+TimeoutStopSec=15
+
+[Install]
+WantedBy=default.target
